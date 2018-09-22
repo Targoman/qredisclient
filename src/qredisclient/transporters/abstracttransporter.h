@@ -6,8 +6,8 @@
 #include <QTimer>
 #include <QSharedPointer>
 
-#include "qredisclient/command.h"
-#include "qredisclient/response.h"
+#include "QRedisClient/command.h"
+#include "QRedisClient/response.h"
 
 namespace RedisClient {
 

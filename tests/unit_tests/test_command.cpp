@@ -1,6 +1,6 @@
 #include "test_command.h"
-#include "qredisclient/command.h"
-#include "qredisclient/scancommand.h"
+#include "QRedisClient/command.h"
+#include "QRedisClient/scancommand.h"
 
 #include <QDebug>
 #include <QTest>

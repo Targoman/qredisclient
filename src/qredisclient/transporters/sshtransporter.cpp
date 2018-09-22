@@ -2,9 +2,9 @@
 
 #include <qsshtcpsocket.h>
 
-#include "qredisclient/connection.h"
-#include "qredisclient/connectionconfig.h"
-#include "qredisclient/utils/sync.h"
+#include "QRedisClient/connection.h"
+#include "QRedisClient/connectionconfig.h"
+#include "QRedisClient/utils/sync.h"
 
 #define MAX_BUFFER_SIZE 536800 //response part limit
 

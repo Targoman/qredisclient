@@ -3,7 +3,7 @@
 #include <QEventLoop>
 #include <QTimer>
 
-#include <qredisclient/response.h>
+#include <QRedisClient/response.h>
 
 /**
  * Utilitary functions and classes for internal implementation.

@@ -2,8 +2,8 @@
 #include <QDebug>
 #include <QSharedPointer>
 #include <QTimer>
-#include "qredisclient/command.h"
-#include "qredisclient/transporters/abstracttransporter.h"
+#include "QRedisClient/command.h"
+#include "QRedisClient/transporters/abstracttransporter.h"
 
 class DummyTransporter : public RedisClient::AbstractTransporter
 {

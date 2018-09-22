@@ -9,7 +9,7 @@
 #include "test_ssh.h"
 #include "test_config.h"
 #include "test_text.h"
-#include "qredisclient/redisclient.h"
+#include "QRedisClient/redisclient.h"
 
 int main(int argc, char *argv[])
 {

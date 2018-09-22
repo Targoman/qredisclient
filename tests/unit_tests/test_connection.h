@@ -4,7 +4,7 @@
 #include <QObject>
 #include <QtCore>
 #include "basetestcase.h"
-#include "qredisclient/connectionconfig.h"
+#include "QRedisClient/connectionconfig.h"
 
 class TestConnection : public BaseTestCase
 {

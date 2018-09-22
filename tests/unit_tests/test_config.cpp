@@ -1,6 +1,6 @@
 #include "test_config.h"
-#include "qredisclient/connectionconfig.h"
-#include "qredisclient/connection.h"
+#include "QRedisClient/connectionconfig.h"
+#include "QRedisClient/connection.h"
 
 #include <QDebug>
 #include <QTest>

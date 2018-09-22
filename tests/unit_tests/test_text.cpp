@@ -1,5 +1,5 @@
 #include "test_text.h"
-#include "qredisclient/utils/text.h"
+#include "QRedisClient/utils/text.h"
 
 #include <QDebug>
 #include <QTest>

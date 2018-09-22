@@ -1,5 +1,5 @@
 #include "connectionconfig.h"
-#include "qredisclient/utils/compat.h"
+#include "QRedisClient/utils/compat.h"
 #include <QFile>
 
 RedisClient::ConnectionConfig::ConnectionConfig(const QString &host, const QString &auth, const uint port, const QString &name)

@@ -1,14 +1,60 @@
-*.DS_Store
-*~
+# 3rdparty, tmp and build direcotry
+3rdParty/
+out/
+build/
+docs/
+res/keys
+res/
+TODO.md
+.*~
+
+# vim/neovim / YouCompleteMe
+.vimrc
+.gvimrc
+init.vim
+Session.vim
+.ycm_extra_conf.*
+.color_coded*
+tags
+
+# ahh! OSX finder!
+.directory
+.DS_Store
+
+# translation files
+*.qm
+*.ts
+
+# key files
+*.pem
+
+# temp files
+Makefile*
 *.user
-3rdparty/windows/rmt*
-obj/*
-*.lib
-*.exe
+*.autosave
+*.~
+*.o
+*.qmake.stash
+*.pro.user*
+*.bak
+*.log
+*_plugin_import.cpp
+*.swp
+
+# Visual studio
+*.htm
+*.html
+*.ncb
+*.idb
+*.suo
 *.pdb
-tests/build-*
-tests/functional/.idea
-tests/functional/*.json
-tests/functional/*.data
-tests/functional/bin/*
-*Redis-64*
+*.vcxproj.filters
+*.vcproj
+*.vcxproj
+*.sln
+*.rc
+
+# node.js external modules
+node_modules
+
+

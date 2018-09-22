@@ -1,14 +1,12 @@
-TEMPLATE = lib
-CONFIG += staticlib
-VERSION = 0.1.0
-TARGET = qredisclient
+TEMPLATE = subdirs
 
-include($$PWD/qredisclient.pri)
+SUBDIRS += src
+SUBDIRS += tests
 
-isEmpty(DESTDIR) {
-    DESTDIR = $$PWD
-}
+tests.depends = src
 
-OBJECTS_DIR = $$DESTDIR/obj
-MOC_DIR = $$DESTDIR/obj
-RCC_DIR = $$DESTDIR/obj
+#SUBDIRS += examples
+#examples.depends = src
+
+
+

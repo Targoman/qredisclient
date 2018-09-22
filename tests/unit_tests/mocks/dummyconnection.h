@@ -1,8 +1,8 @@
 #pragma once
 #include <functional>
 #include <QVariant>
-#include "qredisclient/connection.h"
-#include "qredisclient/scancommand.h"
+#include "QRedisClient/connection.h"
+#include "QRedisClient/scancommand.h"
 
 class DummyConnection : public RedisClient::Connection
 {

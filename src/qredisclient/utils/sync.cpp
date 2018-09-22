@@ -1,8 +1,8 @@
 #include "sync.h"
-#include "qredisclient/command.h"
+#include "QRedisClient/command.h"
 
 RedisClient::SignalWaiter::SignalWaiter(uint timeout)
-    : m_result(false), m_resultReceived(false)
+    : m_resultReceived(false), m_result(false)
 {
     m_timeoutTimer.setSingleShot(true);
     m_timeoutTimer.setInterval(timeout);

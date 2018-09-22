@@ -1,5 +1,5 @@
 
-REDISCLIENT_SRC_DIR = $$PWD/../../src/qredisclient/
+REDISCLIENT_SRC_DIR = $$PWD/../../src/QRedisClient/
 
 HEADERS  += \
     $$PWD/*.h \

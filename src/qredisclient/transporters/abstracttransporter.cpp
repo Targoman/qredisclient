@@ -1,6 +1,6 @@
 #include "abstracttransporter.h"
-#include "qredisclient/connection.h"
-#include "qredisclient/utils/text.h"
+#include "QRedisClient/connection.h"
+#include "QRedisClient/utils/text.h"
 #include <QDebug>
 
 RedisClient::AbstractTransporter::AbstractTransporter(RedisClient::Connection *connection)

@@ -1,7 +1,7 @@
 #include "defaulttransporter.h"
-#include "qredisclient/connection.h"
-#include "qredisclient/connectionconfig.h"
-#include "qredisclient/utils/sync.h"
+#include "QRedisClient/connection.h"
+#include "QRedisClient/connectionconfig.h"
+#include "QRedisClient/utils/sync.h"
 
 #include <QSslConfiguration>
 

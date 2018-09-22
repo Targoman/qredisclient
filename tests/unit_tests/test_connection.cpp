@@ -2,8 +2,8 @@
 #include <thread>
 #include <QTest>
 #include "test_connection.h"
-#include "qredisclient/connection.h"
-#include "qredisclient/command.h"
+#include "QRedisClient/connection.h"
+#include "QRedisClient/command.h"
 
 using namespace RedisClient;
 

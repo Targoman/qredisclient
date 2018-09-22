@@ -3,8 +3,8 @@
 #include <QVector>
 #include <QObject>
 #include <QVariantList>
-#include "qredisclient/utils/text.h"
-#include "qredisclient/utils/compat.h"
+#include "QRedisClient/utils/text.h"
+#include "QRedisClient/utils/compat.h"
 
 const redisReplyObjectFunctions RedisClient::Response::defaultFunctions = {
     RedisClient::Response::createStringObject,

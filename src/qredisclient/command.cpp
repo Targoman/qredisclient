@@ -1,7 +1,7 @@
 #include "command.h"
 #include <QSet>
-#include "qredisclient/utils/compat.h"
-#include "qredisclient/utils/text.h"
+#include "QRedisClient/utils/compat.h"
+#include "QRedisClient/utils/text.h"
 
 
 RedisClient::Command::Command()

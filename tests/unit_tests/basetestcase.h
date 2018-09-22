@@ -5,8 +5,8 @@
 #include <QTest>
 #include <QEventLoop>
 #include <QTimer>
-#include "qredisclient/connection.h"
-#include "qredisclient/connectionconfig.h"
+#include "QRedisClient/connection.h"
+#include "QRedisClient/connectionconfig.h"
 #include "mocks/dummyTransporter.h"
 #include "mocks/dummyconnection.h"
 

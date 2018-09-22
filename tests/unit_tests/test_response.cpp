@@ -1,6 +1,6 @@
 #include "test_response.h"
-#include "qredisclient/response.h"
-#include "qredisclient/scanresponse.h"
+#include "QRedisClient/response.h"
+#include "QRedisClient/scanresponse.h"
 #include <QtCore>
 #include <QTest>
 

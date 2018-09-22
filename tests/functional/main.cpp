@@ -8,7 +8,7 @@
 #include <QElapsedTimer>
 
 #include <iostream>
-#include "qredisclient/redisclient.h"
+#include "QRedisClient/redisclient.h"
 
 int main(int argc, char *argv[])
 {
